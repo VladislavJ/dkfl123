@@ -1316,7 +1316,7 @@ th {
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(img/bx_loader.gif) center center no-repeat #fff;
+	background: url(../img/bx_loader.gif) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -1363,12 +1363,12 @@ th {
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(img/controls.png) no-repeat 0 -32px;
+	background: url(../img/controls.png) no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(img/controls.png) no-repeat -43px -32px;
+	background: url(../img/controls.png) no-repeat -43px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {
@@ -1406,7 +1406,7 @@ th {
 	width: 10px;
 	height: 11px;
 	outline: 0;
-	background: url(img/controls.png) -86px -11px no-repeat;
+	background: url(../img/controls.png) -86px -11px no-repeat;
 	margin: 0 3px;
 }
 
@@ -1421,7 +1421,7 @@ th {
 	width: 9px;
 	height: 11px;
 	outline: 0;
-	background: url(img/controls.png) -86px -44px no-repeat;
+	background: url(../img/controls.png) -86px -44px no-repeat;
 	margin: 0 3px;
 }
 
@@ -1583,23 +1583,6 @@ th {
 }
 .section3__block{
   position: relative;
-}
-.slider{
-/* 	&__photo1{
-		background: url(../img/slide1.jpg) no-repeat;
-	}
-	&__photo2{
-		background: url(../img/slide2.jpg) no-repeat;
-	}
-	&__photo3{
-		background: url(../img/slide3.jpg) no-repeat;
-	}
-	&__photo4{
-		background: url(../img/slide4.jpg) no-repeat;
-	}
-	&__photo5{
-		background: url(../img/slide5.jpg) no-repeat;
-	} */
 }
 .slider__wrapper{
   text-align: center;

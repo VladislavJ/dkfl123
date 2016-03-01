@@ -1627,10 +1627,11 @@ th {
 }
 .footer__wrapper{
   float: left;
-  padding-left: 60px;
+  padding-left: 20px;
 }
 .footer__photo{
   float: right;
+  padding-right: 20px;
 }
 .footer__title, .footer__title3, .footer__description{
   color: #262626;
@@ -1661,13 +1662,84 @@ th {
 }
 .footer__block1{
   margin-top: 100px;
+  position: relative;
+}
+.footer__block1::after{
+  content:'';
+  position: absolute;
+  height: 270px;
+  border-right: 1px solid #e5e5e5;
+  right: 0px;
+  top: -30px;
 }
 .footer__block2{
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
+  position: relative;
+}
+.footer__block2::after{
+  content:'';
+  position: absolute;
+  height: 270px;
+  border-right: 1px solid #e5e5e5;
+  right: 0px;
+  top: 70px;
 }
 .footer__block3{
   margin-top: 45px;
+}
+.footer__copy{
+  float: left;
+  margin: 0;
+  font-family: "Museo100";
+  color: #9f9f9f;
+  font-weight: 100;
+}
+.footer__ul{
+  float: right;
+}
+.footer__item{
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 50px;
+}
+.footer__copy, .footer__link{
+  font-family: "Museo100";
+  font-size: 16px;
+  color: #606060;
+  text-decoration: none;
+}
+.footer__copy, .footer__ul{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.footer__email{
+  width: 215px;
+  height: 60px;
+  margin-left: 60px;
+  text-align: center;
+  color: #302f2f;
+}
+.footer__email::-webkit-input-placeholder {
+  color: #606060;
+}
+.footer__email:-moz-placeholder,
+		.footer__email::-moz-placeholder {
+  color: #606060;
+}
+.footer__email:-ms-input-placeholder {
+  color: #606060;
+}
+.footer__button{
+  width: 100px;
+  height: 66px;
+  font-family: "Museo700";
+  background: #e8dadc;
+  color: #302f2f;
+  border: 0;
+  letter-spacing: 2px;
+}
+.footer__email, .footer__button{
+  outline: 0;
+  float: left;
 }
 .slider > .container {
 	max-width: 1600px;

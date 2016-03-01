@@ -1584,23 +1584,92 @@ th {
 .section3__block{
   position: relative;
 }
+.slider{
+	padding-bottom: 30px;
+}
 .slider__wrapper{
   text-align: center;
   display: inline-block;
 }
 .slider__title{
+  font-family: "Museo900";
+  font-weight: 900;
   text-transform: uppercase;
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+.slider__description{
+  font-family: "Museo100";
+  font-weight: 100;
+  margin-top: 2px;
+}
+.slider__title, .slider__description{
+  font-size: 12px;
 }
 .slider__name{
   font-family: 'Playfair Display', serif;
   font-size: 33px;
   color: #262626;
   font-weight: 100;
-  margin-left: 155px;
+  margin: 50px 0 50px 155px;
 }
 .slider__block{
   text-align: center;
 }
+.slider > .container {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.footer{
+	padding-top: 60px;
+	border-top: 1px solid #e5e5e5;
+}
+.footer__wrapper{
+  float: left;
+  padding-left: 60px;
+}
+.footer__photo{
+  float: right;
+}
+.footer__title, .footer__title3, .footer__description{
+  color: #262626;
+}
+.footer__title{
+  font-family: 'Playfair Display', serif;
+  font-size: 33px;
+  font-weight: 100;
+  margin: 70px 0 20px 0;
+}
+.footer__title3{
+  font-family: "Museo900";
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.footer__description{
+  font-family: "Museo100";
+  font-size: 13px;
+  font-weight: 900;
+}
+.footer__designer{
+  font-family: "Museo300";
+  font-size: 14px;
+  color: #262626;
+}
+.footer__block1, .footer__block2, .footer__block3{
+  text-align: center;
+}
+.footer__block1{
+  margin-top: 100px;
+}
+.footer__block2{
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.footer__block3{
+  margin-top: 45px;
+}
+.footer__ul{}
 .slider > .container {
 	max-width: 1600px;
 	margin: 0 auto;

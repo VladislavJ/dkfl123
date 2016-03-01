@@ -1,0 +1,56 @@
+.footer{
+	padding-top: 60px;
+	border-top: 1px solid #e5e5e5;
+	&__wrapper{
+		float: left;
+		padding-left: 60px;
+	}
+	&__photo{
+		float: right;
+	}
+	&__title, &__title3, &__description{
+		color: #262626;
+	}
+	&__title{
+		font-family: 'Playfair Display', serif;
+		font-size: 33px;
+		font-weight: 100;
+		margin: 70px 0 20px 0;
+	}
+	&__title3{
+		font-family: "Museo900";
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+	&__description{
+		font-family: "Museo100";
+		font-size: 13px;
+		font-weight: 900;
+	}
+	&__designer{
+		font-family: "Museo300";
+		font-size: 14px;
+		color: #262626;
+	}
+	&__block1, &__block2, &__block3{
+		text-align: center;
+	}
+	&__block1{
+		margin-top: 100px;
+	}
+	&__block2{
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+	&__block3{
+		margin-top: 45px;
+	}
+	&__ul{
+		
+	}
+}
+.slider > .container {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 15px;
+}

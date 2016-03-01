@@ -86,11 +86,11 @@
 	<section id="slider" class="slider">
 		<div class="container">
 			<div class="row">
-				<h1>Коллекция Anna K...</h1>
+				<h1 class="slider__name">Коллекция Anna K...</h1>
 				<ul class="bxslider">
 					<li class="slider__block">
 						<div class="slider__wrapper">
-							<img class="slider__photo" src="img/slide1.jpg" alt="slide1">
+							<img class="slider__photo" src="img/slide1.jpg" alt="1">
 							<h2 class="slider__title">Anna K</h2>
 							<p class="slider__description">Платье <br>30000 грн</p>
 						</div>
@@ -104,21 +104,63 @@
 					</li>
 					<li class="slider__block">
 						<div class="slider__wrapper">
-							<img class="slider__photo" src="img/slide3.jpg" alt="2">
+							<img class="slider__photo" src="img/slide3.jpg" alt="3">
 							<h2 class="slider__title">Anna K</h2>
 							<p class="slider__description">Платье <br>30000 грн</p>
 						</div>
 					</li>
 					<li class="slider__block">
 						<div class="slider__wrapper">
-							<img class="slider__photo" src="img/slide4.jpg" alt="2">
+							<img class="slider__photo" src="img/slide4.jpg" alt="4">
 							<h2 class="slider__title">Anna K</h2>
 							<p class="slider__description">Платье <br>30000 грн</p>
 						</div>
 					</li>
 					<li class="slider__block">
 						<div class="slider__wrapper">
-							<img class="slider__photo" src="img/slide5.jpg" alt="2">
+							<img class="slider__photo" src="img/slide5.jpg" alt="5">
+							<h2 class="slider__title">Anna K</h2>
+							<p class="slider__description">Платье <br>30000 грн</p>
+						</div>
+					</li>
+					<li class="slider__block">
+						<div class="slider__wrapper">
+							<img class="slider__photo" src="img/slide2.jpg" alt="5">
+							<h2 class="slider__title">Anna K</h2>
+							<p class="slider__description">Платье <br>30000 грн</p>
+						</div>
+					</li>
+					<li class="slider__block">
+						<div class="slider__wrapper">
+							<img class="slider__photo" src="img/slide3.jpg" alt="3">
+							<h2 class="slider__title">Anna K</h2>
+							<p class="slider__description">Платье <br>30000 грн</p>
+						</div>
+					</li>
+					<li class="slider__block">
+						<div class="slider__wrapper">
+							<img class="slider__photo" src="img/slide4.jpg" alt="1">
+							<h2 class="slider__title">Anna K</h2>
+							<p class="slider__description">Платье <br>30000 грн</p>
+						</div>
+					</li>
+					<li class="slider__block">
+						<div class="slider__wrapper">
+							<img class="slider__photo" src="img/slide2.jpg" alt="1">
+							<h2 class="slider__title">Anna K</h2>
+							<p class="slider__description">Платье <br>30000 грн</p>
+						</div>
+					</li>
+					<li class="slider__block">
+						<div class="slider__wrapper">
+							<img class="slider__photo" src="img/slide3.jpg" alt="1">
+							<h2 class="slider__title">Anna K</h2>
+							<p class="slider__description">Платье <br>30000 грн</p>
+						</div>
+					</li>
+					<li class="slider__block">
+						<div class="slider__wrapper">
+							<img class="slider__photo" src="img/slide5.jpg" alt="1">
 							<h2 class="slider__title">Anna K</h2>
 							<p class="slider__description">Платье <br>30000 грн</p>
 						</div>
@@ -134,8 +176,9 @@
 	$(document).ready(function(){
 		$('.bxslider').bxSlider({
 			minSlides: 5,
+			maxSlides: 5,
 			captions: true,
-			slideWidth: 200,
+			slideWidth: 300,
 			controls: false
 		});
 	});

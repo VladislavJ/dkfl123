@@ -2,20 +2,23 @@
 	&__wrapper{
 		text-align: center;
 		display: inline-block;
-		width: 110px;
-		height: 210;
 	}
 	&__title{
 		text-transform: uppercase;
+	}
+	&__name{
+		font-family: 'Playfair Display', serif;
+		font-size: 33px;
+		color: #262626;
+		font-weight: 100;
+		margin-left: 155px;
+	}
+	&__block{
+		text-align: center;
 	}
 }
 .slider > .container {
 	max-width: 1600px;
 	margin: 0 auto;
 	padding: 0 15px;
-}
-.container::after{
-	content: '';
-	display: table;
-	clear: both;
 }

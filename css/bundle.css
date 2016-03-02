@@ -1714,7 +1714,6 @@ th {
 .footer__email{
   width: 215px;
   height: 60px;
-  margin-left: 60px;
   text-align: center;
   color: #302f2f;
 }
@@ -1740,6 +1739,10 @@ th {
 .footer__email, .footer__button{
   outline: 0;
   float: left;
+}
+.footer__form{
+  margin: auto;
+  width: 325px;
 }
 .slider > .container {
 	max-width: 1600px;

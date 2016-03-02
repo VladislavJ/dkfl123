@@ -90,7 +90,6 @@
 	&__email{
 		width: 215px;
 		height: 60px;
-		margin-left: 60px;
 		text-align: center;
 		color: #302f2f;
 		&::-webkit-input-placeholder {
@@ -116,6 +115,10 @@
 	&__email, &__button{
 		outline: 0;
 		float: left;
+	}
+	&__form{
+			margin: auto;
+			width: 325px;
 	}
 }
 .slider > .container {

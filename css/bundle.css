@@ -1827,4 +1827,39 @@ input.test:invalid{ border-color:red }
     margin-left: 0;
   }
 }
+@media screen and (max-width : 768px) {
+	.section2__block2{
+    max-width: 390px;
+    margin-left: 0;
+  }
+	.slider__name{
+    margin: 50px 0 50px 80px;
+  }
+	.footer{
+		padding-top: 0;
+	}
+	.footer__foot{
+    padding: 0 15px;
+  }
+	.footer__form{
+    margin: auto;
+    width: 325px;
+  }
+	.footer__email{
+    margin: 0;
+  }
+	.footer__block1{
+    margin-top: 10px;
+  }
+	.footer__block2{
+    margin-top: 20px;
+  }
+	.footer__wrapper{
+    padding: 0 85px;
+  }
+	.footer__photo{
+    float: left;
+    padding: 0 85px;
+  }
+}
 

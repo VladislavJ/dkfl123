@@ -11,12 +11,12 @@
 	<section id="section" class="section">
 		<div class="container">
 			<div class="row">
-				<div class="section__column1 col-lg-4 col-xs-12">
+				<div class="section__column1 col-lg-4 col-xs-12 col-md-4">
 					<a class="section__link" href="#">
 						<img class="section__photo" src="img/photo1.jpg" alt="photo1">
 					</a>
 				</div>
-				<div class="section__column2 col-lg-8 col-xs-12">
+				<div class="section__column2 col-lg-8 col-xs-12 col-md-8">
 					<a class="section__link" href="#">
 						<img class="section__logo" src="img/logo.png" alt="">
 					</a>
@@ -33,12 +33,12 @@
 	<section id="section2" class="section2">
 		<div class="container">
 			<div class="row">
-			<div class="section2__column1 col-lg-3">
+			<div class="section2__column1 col-lg-3 col-md-3">
 				<a class="section2__link" href="#">
 					<img class="section2__photo" src="img/photo2.jpg" alt="photo2">
 				</a>
 			</div>
-			<div class="section2__column2 col-lg-9">
+			<div class="section2__column2 col-lg-9 col-md-9">
 				<div class="section2__content">
 					<div class="section2__block">
 						<a class="section2__link" href="#">
@@ -65,12 +65,12 @@
 	<section id="section3" class="section3">
 		<div class="container">
 			<div class="row">
-				<div class="section3__column1 col-lg-4">
+				<div class="section3__column1 col-lg-4 col-md-4">
 					<a class="section3__link" href="#">
 						<img class="section3__photo" src="img/photo4.jpg" alt="photo4">
 					</a>
 				</div>
-				<div class="section3__column2 col-lg-8">
+				<div class="section3__column2 col-lg-8 col-md-8">
 					<h3 class="section3__title">Три слова, которые характеризуют твою последнюю коллекцию.</h3>
 					<p class="section3__description">Зефир - потому что она очень яркая и воздушная. А еще радость и решительность - нужно быть очень классной, чтобы ее носить.</p>
 					<h3 class="section3__title">Назови свои главные источники вдохновения.</h3>
@@ -194,27 +194,31 @@
 				<div class="footer__block3 col-lg-4">
 					<h3 class="footer__title3">Рассылка</h3>
 					<p class="footer__description">Будьте в курсе последних тенденций<br>и главных новинок, вдохновляйтесь и <br>экспериментируйте с образом<br> вместе с POSH.</p>
-					<input id="mail" class="footer__email" name="email" type="text" placeholder="Ваш Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-					<button id="button" class="footer__button">окей</button>
+					<div class="footer__form">
+						<input id="mail" class="footer__email" name="email" type="text" placeholder="Ваш Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+						<button id="button" class="footer__button">окей</button>
+					</div>
 				</div>
-				<p class="footer__copy"> &copy; 2015 POSH </p>
-				<ul class="footer__ul">
-					<li class="footer__item">
-						<a class="footer__link" href="#">Контакты</a>
-					</li>
-					<li class="footer__item">
-						<a class="footer__link" href="#">Помощь</a>
-					</li>
-					<li class="footer__item">
-						<a class="footer__link" href="#">О нас</a>
-					</li>
-					<li class="footer__item">
-						<a class="footer__link" href="#">Facebook</a>
-					</li>
-					<li class="footer__item">
-						<a class="footer__link" href="#">Instagram</a>
-					</li>
-				</ul>
+				<div class="footer__foot">
+					<p class="footer__copy"> &copy; 2015 POSH </p>
+					<ul class="footer__ul">
+						<li class="footer__item">
+							<a class="footer__link" href="#">Контакты</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Помощь</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">О нас</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Facebook</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Instagram</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</footer>

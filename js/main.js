@@ -1,7 +1,7 @@
 /////////////////////////////////
 	$(document).ready(function(){
 		$('.bxslider').bxSlider({
-			minSlides: 5,
+			minSlides: 1,
 			maxSlides: 5,
 			captions: true,
 			slideWidth: 300,

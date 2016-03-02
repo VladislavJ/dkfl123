@@ -11,13 +11,15 @@
 	<section id="section" class="section">
 		<div class="container">
 			<div class="row">
-				<div class="section__column1 col-lg-4">
+				<div class="section__column1 col-lg-4 col-xs-12">
 					<a class="section__link" href="#">
 						<img class="section__photo" src="img/photo1.jpg" alt="photo1">
 					</a>
 				</div>
-				<div class="section__column2 col-lg-8">
-					<a class="section__link" href="#"><img class="section__logo" src="img/logo.png" alt=""></a>
+				<div class="section__column2 col-lg-8 col-xs-12">
+					<a class="section__link" href="#">
+						<img class="section__logo" src="img/logo.png" alt="">
+					</a>
 					<h3 class="section__title">Вспомни, как именно зародилась идея заняться дизайном одежды?</h3>
 					<p class="section__description">В 6 лет мама привела меня в художественную школу, и уже там я осознала, что стану дизайне-ром. После выпуска я все так же хотела создавать вещи, но не понимала, как это сделать. Мне очень помог опыт работы моделью: на съемках лукбуков и фешн-стори я познакомилась со многими дизайнерами, поняла, как устроен показ, и в 16 лет решилась на собственную кол-лекцию. Показ прошел на маленьком подиуме MBRFD, мою работу похвалила Елена Бара, и тогда я очень четко поняла - это мой путь.</p>
 
@@ -192,8 +194,8 @@
 				<div class="footer__block3 col-lg-4">
 					<h3 class="footer__title3">Рассылка</h3>
 					<p class="footer__description">Будьте в курсе последних тенденций<br>и главных новинок, вдохновляйтесь и <br>экспериментируйте с образом<br> вместе с POSH.</p>
-					<input class="footer__email" type="text" placeholder="Ваш Email">
-					<button class="footer__button">окей</button>
+					<input id="mail" class="footer__email" name="email" type="text" placeholder="Ваш Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+					<button id="button" class="footer__button">окей</button>
 				</div>
 				<p class="footer__copy"> &copy; 2015 POSH </p>
 				<ul class="footer__ul">
@@ -219,17 +221,6 @@
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
-	<script>
-	$(document).ready(function(){
-		$('.bxslider').bxSlider({
-			minSlides: 5,
-			maxSlides: 5,
-			captions: true,
-			slideWidth: 300,
-			controls: false,
-			auto: true
-		});
-	});
-	</script>
+	<script src="js/main.js"></script>
 </body>
 </html>

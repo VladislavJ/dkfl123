@@ -1,0 +1,86 @@
+@media screen and (max-width : 340px) {
+	.section{
+		&__column1, &__column2{
+			text-align: center;
+		}
+		&__photo{
+			margin-top: 0;
+		}
+		&__logo{
+			margin: 100px 0;
+		}
+		&__title, &__description{
+			text-align: left;
+		}
+	}
+	.section2{
+		padding: 0;
+		&__column1, &__column2{
+			text-align: center;
+		}
+		&__photo, &__block, &__block2{
+			float: none;
+		}
+		&__block{
+			margin-bottom: 40px;
+		}
+		&__block2{
+			margin: 0;
+		}
+		&__title2{
+			font-size: 19px;
+			margin-left: 0;
+			margin-top: 60px;
+		}
+		&__title3, &__description{
+			text-align: left;
+		}
+	}
+	.section3{
+		&__column1{
+			text-align: center;
+		}
+	}
+	.slider{
+		&__name{
+			text-align: center;
+			margin: 30px 0;
+		}
+	}
+	.footer{
+		padding-top: 0;
+		&__block1{
+			margin-top: 0;
+		}
+		&__block3{
+			margin-top: 0;
+		}
+		&__wrapper{
+			float: none;
+			padding-left: 0;
+		}
+		&__photo{
+			float: none;
+			padding-right: 0;
+		}
+		&__title{
+			margin: 10px 0;
+		}
+		&__item{
+			margin: 0 10px;
+		}
+		&__copy{
+			display: none;
+		}
+		&__ul{
+			float: none;
+		}
+		&__button{
+			width: 80px;
+		}
+		&__email{
+			width: 200px;
+			margin-left: 0;
+		}
+	}
+}

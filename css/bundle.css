@@ -1747,7 +1747,7 @@ th {
 	padding: 0 15px;
 }
 input.test:invalid{ border-color:red }
-@media screen and (max-width : 340px) {
+@media screen and (max-width : 360px) {
 	.section__column1, .section__column2{
     text-align: center;
   }

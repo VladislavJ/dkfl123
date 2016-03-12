@@ -80,6 +80,16 @@
 	margin: 0;
 	padding: 0;
 }
-.owl-prev, .owl-next{
-	display: block;
+.owl-carousel{
+	position: relative;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  top: 55px; 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 55px;
 }

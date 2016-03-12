@@ -1,6 +1,7 @@
 @import 'normalize.css';
 @import 'modules/layout.css';
+@import 'modules/owl.transitions.css';
 @import 'modules/owl.carousel.css';
-@import 'modules/owl.theme.default.min.css';
+@import 'modules/owl.theme.css';
 @import 'modules/container.css';
 @import 'modules/header.css';

@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header class="header">
-		<ul id="gallary" class="owl-carousel owl-theme owl-loaded">
+		<ul class="owl-carousel owl-theme owl-loaded">
 			<li class="header__gallery header__photo1"></li>
 			<li class="header__gallery header__photo2"></li>
 			<li class="header__gallery header__photo3"></li>
@@ -51,23 +51,23 @@
 		</div>
 	</header>
 <!-- Configuring Carousel http://owlgraphic.com/owlcarousel/ -->
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/owl.carousel.js"></script>
 <script>
 	$(document).ready(function(){
 		$(".owl-carousel").owlCarousel({
-			navigation: true,
-			navigationText: ["prev","next"],
-			dots:true,
 			autoplay:true,
-			animateOut: 'fadeOut',
 			items:1,
 			itemsScaleUp: true,
 			margin:0,
 			stagePadding:0,
 			smartSpeed:450,
 			slideSpeed: 1,
-			mouseDrag:false
+			mouseDrag:false,
+			navigation: true,
+			navigationText: ["prev","next"],
+			transitionStyle : "fade",
+			pagination: false
 		});
 	});
 </script>

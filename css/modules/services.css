@@ -32,6 +32,7 @@
 		float: right;
 		max-width: 400px;
 		margin-top: 0;
+		text-align: justify;
 	}
 	&__wrapper{
 		float: right;

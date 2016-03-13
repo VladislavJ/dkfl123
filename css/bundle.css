@@ -1610,7 +1610,7 @@ th {
 }
 .services__title::after{
   content:'';
-  background: url(../img/title-border.svg) no-repeat;
+  background: url(../img/title-border.png) no-repeat;
   display: block;
   margin: 25px auto;
   width: 100px;

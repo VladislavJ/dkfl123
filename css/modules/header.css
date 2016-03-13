@@ -80,16 +80,35 @@
 	margin: 0;
 	padding: 0;
 }
-.owl-carousel{
-	position: relative;
+.owl-theme .owl-controls .owl-buttons div {
+	position: absolute
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-prev{
-  left: -45px;
-  top: 55px; 
+	background-image: url(../img/left.svg);
+	left: 100px;
+	top: 400px; 
+	background-position: 45% 50%;
 }
  
 .owl-theme .owl-controls .owl-buttons .owl-next{
-  right: -45px;
-  top: 55px;
+	background-image: url(../img/right.svg);
+	right: 100px;
+	top: 400px;
+	background-position: 55% 50%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev,
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	z-index: 3;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 50%;
+	opacity: 1;
+	width: 42px;
+	height: 60px;
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:hover,
+.owl-theme .owl-controls .owl-buttons .owl-next:hover {
+	background-color:rgba(0,0,0,0.7);
 }

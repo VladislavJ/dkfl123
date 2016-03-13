@@ -3,11 +3,12 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/bundle.css">
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initail-scale=1.0">
 	<title>Kasper</title>
 </head>
 <body>
-	<header class="header">
+	<header id="header" class="header">
 		<ul class="owl-carousel owl-theme owl-loaded">
 			<li class="header__gallery header__photo1"></li>
 			<li class="header__gallery header__photo2"></li>
@@ -41,15 +42,47 @@
 					</ul>
 					<a class="header__search" href="#"></a>
 				</div>
-<!-- 				<div class="header__block">
-					<div class="container">
-						<h2>Hello World</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quasi impedit commodi magni cupiditate eos itaque dolore et autem! Aliquid eaque sunt placeat, quibusdam illum incidunt ratione id temporibus quo?</p>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</header>
+	<section id="services" class="services">
+		<div class="container">
+			<h1 class="services__title">Сервис</h1>
+			<p class="services__description">Описание технологий которые мы используем, что бы ваш сайт не был похож на очередной не качественный продукт.</p>
+			<div class="services__block">
+				<div class="row">
+					<div class="services__dialog col-lg-6">
+						<img class="services__photo" src="img/pc.png" alt="dialog">
+						<div class="wrapper">
+							<p class="services__depiction">Кароч заваливаетесь в мои хоромы, базарим шо по чом, возможен залог вашей квартиры, которую вам оплачивать ещё пару лет и идем дальше.</p>
+						</div>
+					</div>
+					<div class="services__tech col-lg-6">
+						<img class="services__photo" src="img/tech.png" alt="dialog">
+						<div class="wrapper">
+							<p class="services__depiction">Типа техническая стадия, в общем мы вам рассказываем какие мы тигры, вас будет сопровождать психованый HR менеджер, который 3-й месяц ждет свою зарплату, продолжаем фантазировать...</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="services__paint col-lg-6">
+						<img class="services__photo" src="img/paint.png" alt="dialog">
+						<div class="wrapper">
+							<p class="services__depiction">Вы объясняете нашему дизайнеру с ПТУ как вы видите свою свой "идеальный лендинг", карандашем от руки царапаем макет и в продакшн.</p>
+						</div>
+					</div>
+					<div class="services__design col-lg-6">
+						<img class="services__photo" src="img/photo.png" alt="dialog">
+						<div class="wrapper">
+							<p class="services__depiction">Стадия продакшена, вы получаете лендинг мечты и обещаете что расскажете о нас всем своим знакомым и убегаете с офиса от возбужденного HR, который на эмоциях носится по всему офису</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 <!-- Configuring Carousel http://owlgraphic.com/owlcarousel/ -->
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/owl.carousel.js"></script>

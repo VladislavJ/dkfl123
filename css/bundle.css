@@ -1536,15 +1536,15 @@ th {
   color: #fff;
 }
 .header__photo1{
-  background: url(../img/photo1.jpg) no-repeat;
+  background: url(../img/photo1.jpg) no-repeat center center;
   height: 800px;
 }
 .header__photo2{
-  background: url(../img/photo2.jpg) no-repeat;
+  background: url(../img/photo2.jpg) no-repeat center center;
   height: 800px;
 }
 .header__photo3{
-  background: url(../img/photo3.jpg) no-repeat;
+  background: url(../img/photo3.jpg) no-repeat center center;
   height: 800px;
 }
 .header__position{

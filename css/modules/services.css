@@ -43,7 +43,8 @@
 		margin-top: 100px;
 	}
 	&__cogwheel {
-		animation: rotate 3s infinite;
+	animation: rotate 5s infinite linear;
+
 	}
 }
 

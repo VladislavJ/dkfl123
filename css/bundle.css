@@ -1641,8 +1641,8 @@ th {
   margin-top: 100px;
 }
 .services__cogwheel {
-  -webkit-animation: rotate 3s infinite;
-          animation: rotate 3s infinite;
+  -webkit-animation: rotate 5s infinite linear;
+          animation: rotate 5s infinite linear;
 }
 
 @-webkit-keyframes rotate {

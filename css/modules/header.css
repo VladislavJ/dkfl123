@@ -11,14 +11,9 @@
 		float: left;
 		margin: 30px 0;
 	}
-	&__list{
-		float: left;
-		padding: 0;
-		margin: 0 0 0 310px;
-	}
 	&__item{
 		display: inline-block;
-		margin: 33px 20px 0 20px;
+		margin: 25px;
 		list-style-type: none;
 	}
 	&__link{
@@ -51,20 +46,19 @@
 		color: #fff;
 	}
 	&__photo1{
-		background: url(../img/photo1.jpg) no-repeat;
+		background: url(../img/photo1.jpg) no-repeat center center;
 		height: 800px;
 	}
 	&__photo2{
-		background: url(../img/photo2.jpg) no-repeat;
+		background: url(../img/photo2.jpg) no-repeat center center;
 		height: 800px;
 	}
 	&__photo3{
-		background: url(../img/photo3.jpg) no-repeat;
+		background: url(../img/photo3.jpg) no-repeat center center;
 		height: 800px;
 	}
 	&__position{
 		width: 100%;
-		height: 800px;
 		top: 0;
 		position: fixed;
 		z-index: 2;
@@ -80,6 +74,35 @@
 	margin: 0;
 	padding: 0;
 }
-.owl-prev, .owl-next{
-	display: block;
+.owl-theme .owl-controls .owl-buttons div {
+	position: absolute
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+	background-image: url(../img/left.svg);
+	left: 100px;
+	top: 400px; 
+	background-position: 45% 50%;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+	background-image: url(../img/right.svg);
+	right: 100px;
+	top: 400px;
+	background-position: 55% 50%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev,
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	z-index: 3;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 50%;
+	opacity: 1;
+	width: 42px;
+	height: 60px;
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev:hover,
+.owl-theme .owl-controls .owl-buttons .owl-next:hover {
+	background-color:rgba(0,0,0,0.7);
 }

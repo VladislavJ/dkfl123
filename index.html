@@ -1,73 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/bundle.css">
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initail-scale=1.0">
 	<title>Kasper</title>
 </head>
 <body>
-	<header class="header">
-		<ul id="gallary" class="owl-carousel owl-theme owl-loaded">
-			<li class="header__gallery header__photo1"></li>
+	<header id="header" class="header">
+		<ul class="owl-carousel owl-theme owl-loaded">
 			<li class="header__gallery header__photo2"></li>
+			<li class="header__gallery header__photo1"></li>
 			<li class="header__gallery header__photo3"></li>
 		</ul>
 		<div class="header__position">
 			<div class="header__main">
 				<div class="container">
-					<a href="#">
-						<img class="header__logo" src="img/logo.png" alt="logo">
-					</a>
-					<ul class="header__list">
-						<li class="header__item">
-							<a class="header__link" href="#Home">Главная</a>
-						</li>
-						<li class="header__item">
-							<a class="header__link" href="#Services">Сервис</a>
-						</li>
-						<li class="header__item">
-							<a class="header__link" href="#Portfolio">Портфолио</a>
-						</li>
-						<li class="header__item">
-							<a class="header__link" href="#About">О нас</a>
-						</li>
-						<li class="header__item">
-							<a class="header__link" href="#Pracing">Цены</a>
-						</li>
-						<li class="header__item">
-							<a class="header__link" href="#Contact">Контакты</a>
-						</li>
-					</ul>
-					<a class="header__search" href="#"></a>
-				</div>
-<!-- 				<div class="header__block">
-					<div class="container">
-						<h2>Hello World</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quasi impedit commodi magni cupiditate eos itaque dolore et autem! Aliquid eaque sunt placeat, quibusdam illum incidunt ratione id temporibus quo?</p>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="#">
+								<img class="header__logo" src="img/logo.png" alt="logo">
+							</a>
+						</div>
+						<div class="col-md-8">
+							<ul class="header__list">
+								<li class="header__item">
+									<a class="header__link" href="#Home">Услуги</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#Services">Портфолио</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#Portfolio">Команда</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#About">Обратная связь</a>
+								</li>
+<!-- 								<li class="header__item">
+									<a class="header__link" href="#Pracing">Цены</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#Contact">Контакты</a>
+								</li> -->
+							</ul>
+						</div>
+						<div class="col-md-1">
+							<a class="header__search" href="#"></a>
+						</div>
 					</div>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</header>
+
+	<section id="services" class="services">
+		<div class="container">
+			<h3 class="services__title">Наши услуги</h3>
+			<div class="services__block">
+				<div class="row">
+					<div class="services__dialog col-lg-4">
+						<div class="services__wrapper">
+							<img class="services__photo" src="img/corporate.svg" alt="dialog">
+							<h3 class="services__name">Корпоративный</h3>
+							<p class="services__depiction">Сайт состоит из самой детальной информации о компани, это универсальный инструмент, который поможет решить бизнес задачи любой сложности.</p>
+						</div>
+					</div>
+					<div class="services__tech col-md-4">
+						<div class="services__wrapper">
+							<img class="services__photo" src="img/score.svg" alt="dialog">
+							<h3 class="services__name">Интернет-магазин</h3>
+							<p class="services__depiction">Ваш прибыльный бизнес является нашей основной задачей. Мы проработываем каждую деталь, чтобы создать ресурс, который будет приносить достойный доход.</p>
+						</div>
+					</div>
+					<div class="services__tech col-md-4">
+						<div class="services__wrapper">
+							<img class="services__photo" src="img/landing.svg" alt="dialog">
+							<h3 class="services__name">Лєндинг</h3>
+							<p class="services__depiction">Сайт с яркими дизайном, задача котрого превратить посетителей сайта в потенциальных клиентов с максимально возможной вероятностью.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="services__paint col-md-4">
+						<div class="services__wrapper">
+							<img class="services__photo" src="img/cutyway.svg" alt="dialog">
+							<h3 class="services__name">Сайт-визитка</h3>
+							<p class="services__depiction">Персональная страница с краткой, но емкой информацией о вас : контакты, описание услуг, карта проезда и т.д.</p>
+						</div>
+					</div>
+					<div class="services__design col-md-4">
+						<div class="services__wrapper">
+							<img class="services__photo" src="img/promo.svg" alt="dialog">
+							<h3 class="services__name">Промо-сайт </h3>
+							<p class="services__depiction">Небольшой, но яркий и интересный сайт, который привлекает внимание. Его основная задача — формирование имиджа или вывод на рынок нового продукта, товара, брэнда.</p>
+						</div>
+					</div>
+					<div class="services__design col-md-4">
+						<div class="services__wrapper">
+							<img class="services__photo" src="img/idea.svg" alt="dialog">
+							<h3 class="services__name">Индивидуальный</h3>
+							<p class="services__depiction">Учитывая ваши пожелания, мы создадим сайт, которым будут восхищаться, а вы — гордиться.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio" class="portfolio">
+<!-- 		<div class="container">
+			<h1 class="portfolio__title">Портфолио</h1>
+		</div> -->
+		<ul class="portfolio__fcontainer">
+			<li class="portfolio__item portfolio__po1">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+			<li class="portfolio__item portfolio__po2">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+			<li class="portfolio__item portfolio__po3">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+			<li class="portfolio__item portfolio__po4">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+			<li class="portfolio__item portfolio__po5">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+			<li class="portfolio__item portfolio__po6">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+			<li class="portfolio__item portfolio__po7">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+			<li class="portfolio__item portfolio__po8">
+				<div class="portfolio__hover">
+					<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+						<img class="portfolio__icon" src="img/tool.svg" alt="">
+					</a>
+				</div>
+			</li>
+		</ul>
+	</section>
+
+	<section class="team">
+		<div class="container">
+			<h2 class="team__title">Наша команда</h2>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="team__block">
+						<img src="img/team3.png" alt="">
+						<h3 class="team__name">Жураковский Владислав</h3>
+						<p class="team__prof">Руководитель</p>
+						<p class="team__description">Делает вид будто что-то знает, но это не так, это его секрет.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="team__block">
+						<img src="img/team2.png" alt="">
+						<h3 class="team__name">Докиенко Екатерина</h3>
+						<p class="team__prof">Программист</p>
+						<p class="team__description">Дружит с консолью, когда смеется - слышно в соседнем офисе.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="team__block">
+						<img src="img/team1.png" alt="">
+						<h3 class="team__name">Андрущенко Владислав</h3>
+						<p class="team__prof">Веб-дизайнер</p>
+						<p class="team__description">Умеет рисовать даже ногами, главное сдать проект в срок.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="team__block">
+						<img src="img/team4.png" alt="">
+						<h3 class="team__name">Бондаренко Анна</h3>
+						<p class="team__prof">PR-директор</p>
+						<p class="team__description">Может заставить работать даже таких отбитых лаботрясов как мы.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="callback">
+		<div class="container">
+			<div class="row">
+				<h2 class="callback__title">Обратная связь</h2>
+				<div class="callback__form">
+					<form class="callback__center" id="callback">
+						<div class="callback__name clearfix">
+							<input class="callback__input callback__left" placeholder="Имя" type="text">
+							<input class="callback__input callback__right" placeholder="E-mail" type="email">
+						</div>
+						<div class="callback__message">
+							<textarea class="callback__textarea" name="mess" id="message" placeholder="Текст сообщения"></textarea>
+						</div>
+						<a class="callback__btn" id="send" href="#">Отправить</a>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+
 <!-- Configuring Carousel http://owlgraphic.com/owlcarousel/ -->
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/owl.carousel.js"></script>
 <script>
 	$(document).ready(function(){
 		$(".owl-carousel").owlCarousel({
-			navigation: true,
-			navigationText: ["prev","next"],
-			dots:true,
 			autoplay:true,
-			animateOut: 'fadeOut',
 			items:1,
 			itemsScaleUp: true,
 			margin:0,
 			stagePadding:0,
 			smartSpeed:450,
 			slideSpeed: 1,
-			mouseDrag:false
+			mouseDrag:false,
+			navigation: true,
+			navigationText: ["",""],
+			transitionStyle : "fade",
+			pagination: false,
+			responsiveClass:true,
+			singleItem: true
 		});
 	});
 </script>

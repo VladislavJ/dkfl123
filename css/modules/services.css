@@ -1,0 +1,32 @@
+.services{
+	font-family: 'Roboto', sans-serif;
+	padding: 95px 0;
+	&__title{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 30px;
+		color: #1f2021;
+		text-transform: uppercase;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 0;
+	}
+	&__depiction{
+		font-weight: 300;
+		color: #333;
+		margin-top: 0;
+	}
+	&__block{
+		margin-top: 80px;
+	}
+	&__name{
+		width: 100%;
+		display: inline-block;
+		text-transform: uppercase;
+		color: #333;
+		font-weight: 400;
+	}
+	&__wrapper{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+}

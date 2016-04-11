@@ -1774,12 +1774,13 @@ th {
   background-color: #fff;
   border: 1px solid #d5dae0;
   border-radius: 4px;
-  padding-left: 20px;
+  padding-left: 15px;
   color: #7f929e;
   font-size: 16px;
   font-weight: 400;
   line-height: 60px;
   box-sizing: border-box;
+  outline: none;
 }
 .callback__left{
   float: left;
@@ -1792,12 +1793,15 @@ th {
   background-color: #fff;
   border: 1px solid #d5dae0;
   border-radius: 4px;
-  padding: 10px;
+  padding: 15px;
   height: 188px;
   width: 100%;
   color: #7f929e;
   margin-top: 30px;
   box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
 }
 .callback__btn{
   width: 170px;
@@ -1818,6 +1822,21 @@ th {
 .callback__btn:hover{
   background-color: rgba(0,0,0,0.7);
   color: #fff;
+}
+.callback__message{
+  font-size: 16px;
+}
+.callback ::-webkit-input-placeholder  {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.callback :-moz-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.callback :-ms-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 @media only screen and (max-width : 1200px){
 	.owl-theme .owl-controls .owl-buttons .owl-prev,

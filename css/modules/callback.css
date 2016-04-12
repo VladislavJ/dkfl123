@@ -85,3 +85,16 @@
 		font-size: 16px; 
 	}
 }
+
+body :invalid:focus{
+	border: red 1px solid;
+	outline: 0;
+}
+body :valid:focus{
+	border: #2e8b57 1px solid;
+	outline:none !important;
+}
+input:focus{
+	outline-offset: 0;
+}
+* {outline:0!important}

@@ -1487,17 +1487,20 @@ th {
 	position: relative;
 	background: #1f2021;
 }
+.header__list{
+  margin: 0;
+}
 .header__main{
-  height: 100px;
+  height: 80px;
   background-color: rgba(0,0,0,0.7);
 }
 .header__logo{
   float: left;
-  margin: 30px 0;
+  margin: 22px 0;
 }
 .header__item{
   display: inline-block;
-  margin: 25px;
+  margin: 28px 18px;
   list-style-type: none;
 }
 .header__link{
@@ -1518,7 +1521,7 @@ th {
   background: url(../img/search.png) no-repeat;
   width: 15px;
   height: 15px;
-  margin: 42px 0;
+  margin: 32px 0;
 }
 .header__block{
   position: absolute;
@@ -1623,6 +1626,7 @@ th {
   margin-bottom: 50px;
 }
 .portfolio{
+	padding: 80px 0;
 	font-family: 'Roboto', sans-serif;
 }
 .portfolio__title{
@@ -1847,10 +1851,9 @@ body :valid:focus{
 	border: #2e8b57 1px solid;
 	outline:none !important;
 }
-input:focus{
-	outline-offset: 0;
+body input:invalid {
+box-shadow: none;
 }
-* {outline:0!important}
 @media only screen and (max-width : 1200px){
 	.owl-theme .owl-controls .owl-buttons .owl-prev,
 	.owl-theme .owl-controls .owl-buttons .owl-next {

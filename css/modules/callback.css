@@ -94,7 +94,6 @@ body :valid:focus{
 	border: #2e8b57 1px solid;
 	outline:none !important;
 }
-input:focus{
-	outline-offset: 0;
+body input:invalid {
+box-shadow: none;
 }
-* {outline:0!important}

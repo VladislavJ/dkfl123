@@ -3,17 +3,20 @@
 	height: 800px;
 	position: relative;
 	background: #1f2021;
+	&__list{
+		margin: 0;
+	}
 	&__main{
-		height: 100px;
+		height: 80px;
 		background-color: rgba(0,0,0,0.7);
 	}
 	&__logo{
 		float: left;
-		margin: 30px 0;
+		margin: 22px 0;
 	}
 	&__item{
 		display: inline-block;
-		margin: 25px;
+		margin: 28px 18px;
 		list-style-type: none;
 	}
 	&__link{
@@ -33,7 +36,7 @@
 		background: url(../img/search.png) no-repeat;
 		width: 15px;
 		height: 15px;
-		margin: 42px 0;
+		margin: 32px 0;
 	}
 	&__block{
 		position: absolute;
